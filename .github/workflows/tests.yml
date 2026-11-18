@@ -1,0 +1,13 @@
+name: Gameplay tests
+on: [push, pull_request]
+jobs:
+  gameplay:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify gameplay and UDP frames
+        shell: powershell
+        run: ./Tools/Test.ps1
+      - name: Compile supplied player scripts
+        shell: powershell
+        run: ./Tools/BuildLegacyAssembly.ps1
