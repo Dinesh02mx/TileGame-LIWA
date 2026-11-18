@@ -1,0 +1,5 @@
+# Third-party components
+
+Builds/Windows contains the Unity 2021.3 Windows runtime and managed dependencies from the supplied SDK player. Unity components remain subject to Unity's applicable terms. Supplier SDK code, the HC08 protocol lookup table (InteractionLight.cs), native Lan.dll, and supplier language/helper components retain their original owners' rights. This repository does not grant a new license to those components. Confirm redistribution rights with the supplier and Unity before public/commercial redistribution. No license for third-party assets is implied by this repository.
+
+The editable project uses custom UI generated in code and the supplied protocol implementation. LegacyPlayerSource retains supplier scene compatibility. Native supplier language libraries are retained only in the prebuilt player.

@@ -1,0 +1,5 @@
+1000	`	控制器数量	`	Number of controllers	`	控制器數量	`	Количество контроллеров
+1001	`	控制灯的数量	`	Number of lights controlled	`	控制燈的數量	`	Количество управляемых светильников
+1002	`	灯熄灭后过多久后自动亮	`	How long does it take for the light to go off	`	燈熄滅後多久會自動亮	`	Через сколько времени после выключения света он включится автоматически
+1003	`	单位：毫秒	`	Unit: Milliseconds	`	單位：毫秒	`	Единица измерения: миллисекунды
+1004	`	改变灯的颜色，请查看m_ListControllights相关的代码	`	To change the light color, please refer to the code related to m_ListControllights	`	改變燈的顏色，請查看m_ListControllights相關的代碼	`	Для изменения цвета света, пожалуйста, обратитесь к коду, связанному с m_ListControllights

@@ -1,0 +1,14 @@
+UnityProject/Library/
+UnityProject/Temp/
+UnityProject/Logs/
+UnityProject/obj/
+UnityProject/UserSettings/
+UnityProject/.vs/
+.test-output/
+Builds/RebuiltWindows/
+*.log
+*.bak*
+*.pdb
+*.sln
+*.csproj
+Leaderboard*.json

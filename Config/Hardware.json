@@ -1,0 +1,16 @@
+{
+  "hardwareEnabled": true,
+  "mappingVerified": true,
+  "localAddress": "192.168.4.1",
+  "broadcastAddress": "192.168.4.255",
+  "receivePort": 7800,
+  "sendPort": 4626,
+  "receiverWireIds": [
+    0
+  ],
+  "controllerWireIds": [
+    1
+  ],
+  "brightness": 80,
+  "note": "Example commissioned floor: 33x12, six chains of 66. Select the correct local Ethernet address on each PC."
+}

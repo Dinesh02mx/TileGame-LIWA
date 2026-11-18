@@ -1,0 +1,11 @@
+Packaging validation — 2026-11-18
+PASS 1,604 touch-counter checks
+PASS 7,761 Colour Rush checks
+PASS 1,357 idle START / localhost UDP checks
+PASS 65,901 random-wave checks
+PASS 1,920 safe relocation checks
+Total: 78,543 assertions.
+PASS legacy player Assembly-CSharp compilation against supplied Unity assemblies.
+Runtime package: Windows x64 Unity 2021.3.26f1, approximately 73 MB uncompressed.
+Unity Editor is not installed on the packaging PC. Clean Editor project build and destination-PC physical hardware commissioning remain required.
+The Windows runtime was copied from the working installation. Personal leaderboard files and runtime logs were excluded.
