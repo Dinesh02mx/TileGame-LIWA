@@ -9,3 +9,6 @@ PASS legacy player Assembly-CSharp compilation against supplied Unity assemblies
 Runtime package: Windows x64 Unity 2021.3.26f1, approximately 73 MB uncompressed.
 Unity Editor is not installed on the packaging PC. Clean Editor project build and destination-PC physical hardware commissioning remain required.
 The Windows runtime was copied from the working installation. Personal leaderboard files and runtime logs were excluded.
+
+PASS portable player launch from repository folder in SIMULATION: Floor33 READY, 396 tiles. One display detected. Supplier player has pre-existing missing-script warnings; clean Unity project omits those supplier UI scenes.
+Original 33x33 CAD is historical reference only. TileMap33x12.csv is the current 396-tile map.

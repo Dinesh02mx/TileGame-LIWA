@@ -11,5 +11,5 @@ if($Mode -eq 'Hardware') {
  $config.broadcastAddress=($LocalAddress -replace '\.\d+$','.255')
 }
 if(Get-Process Light -ErrorAction SilentlyContinue){throw 'A Light game is already running. Close it before switching mode.'}
-$config | ConvertTo-Json -Depth 5 | Set-Content (Join-Path $app 'FloorConfig.json') -Encoding UTF8
+[IO.File]::WriteAllText((Join-Path $app 'FloorConfig.json'),($config | ConvertTo-Json -Depth 5))
 Start-Process -FilePath (Join-Path $app 'Light.exe') -WorkingDirectory $app -ArgumentList '-screen-fullscreen 0 -screen-width 1280 -screen-height 800 -logFile Game.log'
